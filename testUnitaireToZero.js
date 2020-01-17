@@ -35,6 +35,9 @@ let tests = [
     { array: [2, 0, -2, 0, -3], result: 2},
     { array: [-2, 0, 2, 0, -3], result: 2},
     { array: [-2, 0, -3, 0, 2], result: 2},
+    // Array vide: 
+    { array: [], result: ""},
+
     
    // Test from GoJob:
     {array: [8, 5, 10], result: 5},
