@@ -6,6 +6,7 @@ function calculateClosestTo0 (arr) {
     , 0)
 }
 
+
 let tests = [
     // Single element:
     { array: [5], result: 5 },
@@ -46,6 +47,13 @@ let tests = [
 ]
 
 for (let i = 0; i < tests.length; i++) {
-    console.log(calculateClosestTo0(tests[i].array))
+    console.log(calculateClosestTo0(tests[i].array) == tests[i].result)
 }
+
+
+
+
+
+
+
 
